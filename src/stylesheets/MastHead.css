@@ -1,0 +1,88 @@
+#masthead-container {
+  padding: 0 16px;
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Start */
+
+.start {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-icon {
+  margin: 8px;
+  font-size: 1.3rem;
+}
+
+.start div {
+  width: 90px;
+  height: 20px;
+}
+
+.youtube-icon {
+  width: 100%;
+}
+
+/* Center */
+
+.center {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 0 4px 0 16px;
+  height: 40px;
+  border-radius: 40px 0 0 40px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.search-btn {
+  padding: 0 16px;
+  height: 40px;
+  border-radius: 0 40px 40px 0;
+  border: 1px solid #ccc;
+  border-left: 0;
+  outline: none;
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 6.7%);
+}
+
+.mic-btn {
+  padding: 4px 8px;
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 50%;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.end__btn {
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+.end__btn:hover {
+  background-color: #ccc;
+}
+
+.user {
+  padding: 8px 12px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  background-color: #fbc02d;
+  color: #fff;
+}
