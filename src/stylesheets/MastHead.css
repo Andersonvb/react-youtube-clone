@@ -18,6 +18,7 @@
 .hamburger-icon {
   margin: 8px;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 .start div {
@@ -27,16 +28,27 @@
 
 .youtube-icon {
   width: 100%;
+  cursor: pointer;
 }
 
 /* Center */
 
 .center {
+  width: 35%;
   display: flex;
   gap: 10px;
+  border: 1px solid red;
+}
+
+.center div {
+  width: 80%;
+  border: 1px solid blue;
 }
 
 .search-input {
+  min-width: 30%;
+  width: 85%;
+  max-width: 85%;
   padding: 0 4px 0 16px;
   height: 40px;
   border-radius: 40px 0 0 40px;
@@ -46,7 +58,7 @@
 }
 
 .search-btn {
-  padding: 0 16px;
+  width: 15%;
   height: 40px;
   border-radius: 0 40px 40px 0;
   border: 1px solid #ccc;
@@ -54,14 +66,18 @@
   outline: none;
   font-size: 1.1rem;
   color: hsl(0, 0%, 6.7%);
+  cursor: pointer;
 }
 
 .mic-btn {
-  padding: 4px 8px;
+  padding: 0 10px;
   font-size: 1.1rem;
   border: 0;
   border-radius: 50%;
+  cursor: pointer;
 }
+
+/* End */ 
 
 .end {
   display: flex;
@@ -73,6 +89,7 @@
   padding: 8px;
   border-radius: 50%;
   font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .end__btn:hover {
