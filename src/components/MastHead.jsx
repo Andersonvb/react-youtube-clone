@@ -7,6 +7,8 @@ import { BsSearch, BsFillMicFill } from "react-icons/bs";
 import YoutubeIcon from "../images/youtube-icon.png";
 
 const MastHead = () => {
+  const handleSearchClick = () => {};
+
   return (
     <article id="masthead-container">
       <div className="start">
@@ -19,15 +21,19 @@ const MastHead = () => {
       <div className="center">
         <div>
           <input className="search-input" type="text" placeholder="Search" />
-          <button className="search-btn" ><BsSearch /></button>
+          <button className="search-btn" onClick={handleSearchClick}>
+            <BsSearch />
+          </button>
         </div>
-        <button className="mic-btn"><BsFillMicFill /></button>
+        <button className="mic-btn">
+          <BsFillMicFill />
+        </button>
       </div>
 
       <div className="end">
-        <RiVideoAddLine className="end__btn"  />
-        <BiBell className="end__btn"  />
-        <div className="user"  >A</div>
+        <RiVideoAddLine className="end__btn" />
+        <BiBell className="end__btn" />
+        <div className="user">A</div>
       </div>
     </article>
   );

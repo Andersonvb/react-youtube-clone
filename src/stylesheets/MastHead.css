@@ -37,31 +37,23 @@
   width: 35%;
   display: flex;
   gap: 10px;
-  border: 1px solid red;
 }
 
 .center div {
   width: 80%;
-  border: 1px solid blue;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .search-input {
-  min-width: 30%;
-  width: 85%;
-  max-width: 85%;
-  padding: 0 4px 0 16px;
-  height: 40px;
-  border-radius: 40px 0 0 40px;
-  border: 1px solid #ccc;
-  outline: none;
-  font-size: 1.1rem;
+  display: none;
 }
 
 .search-btn {
-  width: 15%;
+  padding: 0 10px;
   height: 40px;
-  border-radius: 0 40px 40px 0;
-  border: 1px solid #ccc;
+  border-radius: 40px;
+  border: 0;
   border-left: 0;
   outline: none;
   font-size: 1.1rem;
@@ -77,7 +69,7 @@
   cursor: pointer;
 }
 
-/* End */ 
+/* End */
 
 .end {
   display: flex;
@@ -102,4 +94,119 @@
   font-size: 1.1rem;
   background-color: #fbc02d;
   color: #fff;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 720px) {
+  #masthead-container {
+    padding: 0 16px;
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Start */
+
+  .start {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-icon {
+    margin: 8px;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .start div {
+    width: 90px;
+    height: 20px;
+  }
+
+  .youtube-icon {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  /* Center */
+
+  .center {
+    width: 35%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .center div {
+    width: 80%;
+  }
+
+  .search-input {
+    display: inline;
+    min-width: 30%;
+    width: 85%;
+    max-width: 85%;
+    padding: 0 4px 0 16px;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1.1rem;
+  }
+
+  .search-btn {
+    width: 15%;
+    height: 40px;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    outline: none;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 6.7%);
+    cursor: pointer;
+  }
+
+  .mic-btn {
+    padding: 0 10px;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* End */
+
+  .end {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .end__btn {
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+
+  .end__btn:hover {
+    background-color: #ccc;
+  }
+
+  .user {
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    background-color: #fbc02d;
+    color: #fff;
+  }
+}
+
+/* Specials classes */
+
+.hidden {
+  display: none;
 }
