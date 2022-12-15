@@ -1,0 +1,5 @@
+#main-container {
+  width: 100%;
+  height: max-content;
+  border: 0.00001px solid white;
+}

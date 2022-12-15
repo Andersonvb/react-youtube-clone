@@ -1,0 +1,14 @@
+.guide-container {
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  width: 224px;
+  height: 100vh;
+  transition: left 0.15s ease-in-out;
+  border: 1px solid red;
+  background-color: #fff;
+}
+
+.guide-hidden {
+  left: -224px;
+}

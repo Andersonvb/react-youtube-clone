@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
 }
 
 /* Start */
@@ -18,10 +19,21 @@
 .hamburger-icon {
   margin: 8px;
   font-size: 1.3rem;
+}
+
+.hamburger-btn {
+  border: 0;
+  background-color: #fff;
+  border-radius: 50%;
   cursor: pointer;
 }
 
+.hamburger-btn:hover {
+  background-color: #ccc;
+}
+
 .start div {
+  margin-left: 20px;
   width: 90px;
   height: 20px;
 }
