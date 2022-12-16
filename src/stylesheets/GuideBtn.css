@@ -1,0 +1,25 @@
+.guide-btn {
+  width: 180px;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.actived {
+  background-color: #eee;
+}
+
+.guide-btn:hover {
+  background-color: #ccc;
+}
+
+.guide-btn__img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}

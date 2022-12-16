@@ -1,3 +1,7 @@
+hr {
+  margin: 20px 0;
+}
+
 .guide-container {
   padding: 20px;
   position: absolute;
@@ -11,4 +15,28 @@
 
 .guide-hidden {
   left: -224px;
+}
+
+/* Sections */
+
+.guide-start {
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px 10px;
+}
+
+.guide-start div {
+  margin-left: 20px;
+  width: 90px;
+  height: 20px;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.suscriptions-title {
+  padding: 0 20px;
 }
