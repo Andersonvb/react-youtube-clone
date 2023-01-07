@@ -1,0 +1,11 @@
+.content-container {
+  padding: 40px 0;
+  position: relative;
+  top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-direction: column;  
+  z-index: 10;
+}

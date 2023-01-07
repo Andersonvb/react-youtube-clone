@@ -9,8 +9,9 @@ hr {
   width: 224px;
   height: 100vh;
   transition: left 0.15s ease-in-out;
-  border: 1px solid red;
+  border: 1px solid #ccc;
   background-color: #fff;
+  z-index: 0;
 }
 
 .guide-hidden {

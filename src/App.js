@@ -1,6 +1,7 @@
 import "./App.css";
 import MastHead from "./components/MastHead";
 import GuideContainer from "./components/GuideContainer";
+import Content from "./components/Content";
 import { useState } from "react";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         showGuideContainer={showGuideContainer}
         hiddenGuideContainer={hiddenGuideContainer}
       />
+      <Content />
     </main>
   );
 }

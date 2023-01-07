@@ -1,0 +1,47 @@
+.video-container {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.video-img {
+  width: 320px;
+  height: 180px;   
+  border-radius: 13px;
+}
+
+.data-section {
+  display: flex;
+  gap: 20px;
+}
+
+/* Channel Image */
+
+.img-container {
+
+}
+
+.channel-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+/* Data Section */
+
+
+.data-container h2 {
+  font-size: 14px;
+}
+
+.data-container small {
+  color: #666;
+}
+
+.data-bottom {
+  display: flex;
+  gap: 8px;
+}
