@@ -7,18 +7,22 @@
 
 }
 
+/* Video Image */
+
 .video-img {
   width: 320px;
   height: 180px;   
   border-radius: 13px;
 }
 
+/* Data Section */
+
 .data-section {
   display: flex;
   gap: 20px;
 }
 
-/* Channel Image */
+/* Channel Picture */
 
 .img-container {
 
@@ -29,9 +33,6 @@
   height: 36px;
   border-radius: 50%;
 }
-
-/* Data Section */
-
 
 .data-container h2 {
   font-size: 14px;

@@ -5,7 +5,9 @@ const Video = ({ title, channel, channelImg, views, time, img }) => {
   return (
     <div className="video-container">
       <img src={img} alt="Image" className="video-img"/>
+
       <div className="data-section">
+
         <div className="img-container">
           <img src={channelImg} alt="Channel Picture" className="channel-img"/>
         </div>
@@ -18,7 +20,9 @@ const Video = ({ title, channel, channelImg, views, time, img }) => {
             <small>{time}</small>
           </div>
         </div>
+
       </div>
+      
     </div>
   );
 };
