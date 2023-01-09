@@ -10,8 +10,8 @@
 }
 
 .video-container:hover {
-  background-color: #ccc;
   transform: scale(1.1) translateY(10px);
+  box-shadow: 0 0 5px 0 #000;
 }
 
 /* Video Image */
@@ -30,10 +30,6 @@
 }
 
 /* Channel Picture */
-
-.img-container {
-
-}
 
 .channel-img {
   width: 36px;
