@@ -170,6 +170,10 @@
     font-size: 1.1rem;
   }
 
+  .search-input:focus {
+    border: 1px solid rgb(0, 104, 189);
+  }
+
   .search-btn {
     width: 15%;
     height: 40px;

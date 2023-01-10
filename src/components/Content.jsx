@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 import "../stylesheets/Content.css";
 import Video from "./Video";
 import DogImg from "../images/dog.jpg"
